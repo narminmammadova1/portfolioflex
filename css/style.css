@@ -1,0 +1,216 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* header start */
+.header {
+  width: 100%;
+  background-color: #fff;
+  overflow: auto;
+  position:fixed;
+  z-index: 99;
+  border-bottom: 2px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+ /* margin-bottom:40px ; */
+  
+}
+.name {
+  width: 250px;
+  height: 90px;
+  background-color: #4aaaa5;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  left: 200px;
+}
+.name a {
+  color: #fff;
+  font-size: 30;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+nav {
+  position: absolute;
+  right: 180px;
+}
+
+nav ul {
+  display: flex;
+}
+nav li {
+  padding-top: 30px;
+}
+
+nav li a {
+  color: #999999;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-left: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Header end */
+
+body {
+  background-image: url(../images/body.png);
+position: relative;}
+/* main start */
+
+/* Portfolio start */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  position:relative;
+  /* bottom:200px; */
+  
+}
+
+.portfolio_h2{
+  width: 100%;
+  color: #4aaaa5;
+  margin-right:40px;
+  font-size: 24px;
+  /* border-bottom: 3px solid #ddd; */
+}
+h2{ width: 100%;
+    color: #4aaaa5;
+    margin:20px;
+    padding: 20px 0;
+    font-size: 30px;
+    border-bottom: 3px solid #ddd;}
+
+.left {
+  max-width: 650px;
+  width: 100%;
+  /* height: 938px;  */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #fff;
+  border: 1px solid#ddd;
+  padding: 15px;
+  position:relative;
+  left: 200px;
+  top: 130px;
+margin-bottom: 80px;}
+.img {
+  position: relative;
+}
+.img img {
+  width: 300px;
+  padding: 20px;
+}
+
+.img h4 {
+  position: absolute;
+  top: 155px;
+  height: 50px;
+  width: 260px;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #fff;
+  text-align: center;
+  background-color: #4aaaa5;
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+.right {
+  background-color: #fff;
+  max-width: 300px;
+  padding: 30px;
+  border: 2px solid#ddd;
+  position: absolute;
+  right: 200px;
+  top: 130px;
+}
+
+h3 {
+  color: #4aaaa5;
+  font-size: 22px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.right1 img {
+  width: 62px;
+}
+.footer {
+  background-color: #666;
+  color: #ccc;
+  width: 100%;
+  border-top: 8px solid #4aaaa5;
+  text-align: center;
+  font-size: 12px;
+  padding: 30px;
+  position: absolute;
+  margin-top: 90px;
+}
+
+.about{margin: 20px;}
+
+.about img {
+  width: 200px;
+  height: 150px;
+  margin: 10px 25px 0 0;
+  float: left;
+}
+.about p {
+  color: #777;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2;
+  letter-spacing: 0.5;
+}
+
+/* contact start */
+.contact{width: 100%;}
+
+.input {
+  margin: 20px 15px 0px 15px;
+ 
+  
+}
+#name,
+#mail {
+  width: 100%;
+  height: 35px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+#msg {
+  width: 100%;
+  border: 1px solid #ddd;
+}
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #777;
+}
+.button {
+  width: 116px;
+  height: 41px;
+  background-color: #4aaaa5;
+  border: none;
+  padding: 10px 30 px;
+  color: #fff;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 18px;
+}
